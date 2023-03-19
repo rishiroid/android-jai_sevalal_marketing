@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "963440897810",
+    "project_id": "jai-sevalal-marketing",
+    "storage_bucket": "jai-sevalal-marketing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963440897810:android:f0a46b4c8912ccdafacdcb",
+        "android_client_info": {
+          "package_name": "co.rishiz.jsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963440897810-rahqb52dcjulumdkhuco0q1daaou52i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi6LNXgnM4CKW-rD00evP-ArbnRYSez3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963440897810-rahqb52dcjulumdkhuco0q1daaou52i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package co.jsm;
+package co.rishiz;
 
 import android.content.Context;
 
