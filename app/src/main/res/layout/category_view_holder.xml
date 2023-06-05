@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="75dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:backgroundTint="@color/white"
+    android:outlineAmbientShadowColor="@color/red"
+    android:outlineSpotShadowColor="@color/red"
+    app:strokeColor="@color/red"
+    app:cardCornerRadius="23dp"
+    app:strokeWidth="1.5dp"
+    app:cardElevation="15dp"
+    android:layout_marginHorizontal="5dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <ImageButton
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/chicken"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken"
+            android:textColor="@color/red"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="170 Product"
+            android:textColor="@color/white"
+            android:layout_below="@id/txt_title"
+            android:layout_marginTop="7dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
